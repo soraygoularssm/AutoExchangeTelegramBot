@@ -1,0 +1,16 @@
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\AutoTabadol.DataLayer.dll.config
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\AutoTabadol.DataLayer.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\AutoTabadol.DataLayer.pdb
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\AutoTabadol.ViewModel.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\EntityFramework.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\AutoTabadol.ViewModel.pdb
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\EntityFramework.xml
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\obj\Debug\AutoTabadol.DataLayer.csprojAssemblyReference.cache
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\obj\Debug\AutoTabadol.DataLayer.csproj.CoreCompileInputs.cache
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\obj\Debug\AutoTabadol.DataLayer.csproj.CopyComplete
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\obj\Debug\AutoTabadol.DataLayer.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\obj\Debug\AutoTabadol.DataLayer.pdb
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\Newtonsoft.Json.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.DataLayer\bin\Debug\Newtonsoft.Json.xml

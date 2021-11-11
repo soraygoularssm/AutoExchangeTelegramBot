@@ -1,0 +1,6 @@
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.ViewModel\bin\Debug\AutoTabadol.ViewModel.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.ViewModel\bin\Debug\AutoTabadol.ViewModel.pdb
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.ViewModel\obj\Debug\AutoTabadol.ViewModel.csprojAssemblyReference.cache
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.ViewModel\obj\Debug\AutoTabadol.ViewModel.csproj.CoreCompileInputs.cache
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.ViewModel\obj\Debug\AutoTabadol.ViewModel.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.ViewModel\obj\Debug\AutoTabadol.ViewModel.pdb

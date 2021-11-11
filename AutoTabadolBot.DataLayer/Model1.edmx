@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AutoTabadol_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Admin_Table">
+          <Key>
+            <PropertyRef Name="ChatId" />
+          </Key>
+          <Property Name="ChatId" Type="bigint" Nullable="false" />
+          <Property Name="SendMessage" Type="bit" />
+          <Property Name="UserType" Type="int" />
+          <Property Name="Category" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Category_Table">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Category" Type="nvarchar" MaxLength="50" />
+          <Property Name="Code" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="CloseMember_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="JsonFilePath" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Exchanged_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Exchanged" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="SameCategory_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="JsonFilePath" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Tab_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="JsonFilePath" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="UserInfo_Table">
+          <Key>
+            <PropertyRef Name="ChatId" />
+          </Key>
+          <Property Name="ChatId" Type="bigint" Nullable="false" />
+          <Property Name="ChannelId" Type="bigint" />
+          <Property Name="BannerPath" Type="bigint" />
+          <Property Name="Category1" Type="nchar" MaxLength="10" />
+          <Property Name="Category2" Type="nchar" MaxLength="10" />
+          <Property Name="Category3" Type="nchar" MaxLength="10" />
+          <Property Name="DayliTab" Type="int" />
+          <Property Name="MemberCount" Type="bigint" />
+          <Property Name="Recive" Type="bit" />
+          <Property Name="LastTabTimeToDay" Type="int" />
+        </EntityType>
+        <EntityContainer Name="AutoTabadol_DBModelStoreContainer">
+          <EntitySet Name="Admin_Table" EntityType="Self.Admin_Table" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Category_Table" EntityType="Self.Category_Table" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CloseMember_Table" EntityType="Self.CloseMember_Table" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Exchanged_Table" EntityType="Self.Exchanged_Table" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SameCategory_Table" EntityType="Self.SameCategory_Table" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tab_Table" EntityType="Self.Tab_Table" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserInfo_Table" EntityType="Self.UserInfo_Table" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AutoTabadol_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Category_Table">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Code" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CloseMember_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="JsonFilePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Exchanged_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Exchanged" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="SameCategory_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="JsonFilePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Tab_Table">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="JsonFilePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="UserInfo_Table">
+          <Key>
+            <PropertyRef Name="ChatId" />
+          </Key>
+          <Property Name="ChatId" Type="Int64" Nullable="false" />
+          <Property Name="ChannelId" Type="Int64" />
+          <Property Name="BannerPath" Type="Int64" />
+          <Property Name="Category1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Category2" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Category3" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="DayliTab" Type="Int32" />
+          <Property Name="MemberCount" Type="Int64" />
+          <Property Name="Recive" Type="Boolean" />
+          <Property Name="LastTabTimeToDay" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="AutoTabadol_DBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Category_Table" EntityType="Self.Category_Table" />
+          <EntitySet Name="CloseMember_Table" EntityType="Self.CloseMember_Table" />
+          <EntitySet Name="Exchanged_Table" EntityType="Self.Exchanged_Table" />
+          <EntitySet Name="SameCategory_Table" EntityType="Self.SameCategory_Table" />
+          <EntitySet Name="Tab_Table" EntityType="Self.Tab_Table" />
+          <EntitySet Name="UserInfo_Table" EntityType="Self.UserInfo_Table" />
+          <EntitySet Name="Admin_Table" EntityType="AutoTabadol_DBModel.Admin_Table" />
+        </EntityContainer>
+        <EntityType Name="Admin_Table">
+          <Key>
+            <PropertyRef Name="ChatId" />
+          </Key>
+          <Property Name="ChatId" Type="Int64" Nullable="false" />
+          <Property Name="SendMessage" Type="Boolean" />
+          <Property Name="UserType" Type="Int32" />
+          <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AutoTabadol_DBModelStoreContainer" CdmEntityContainer="AutoTabadol_DBEntities">
+          <EntitySetMapping Name="Category_Table">
+            <EntityTypeMapping TypeName="AutoTabadol_DBModel.Category_Table">
+              <MappingFragment StoreEntitySet="Category_Table">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CloseMember_Table">
+            <EntityTypeMapping TypeName="AutoTabadol_DBModel.CloseMember_Table">
+              <MappingFragment StoreEntitySet="CloseMember_Table">
+                <ScalarProperty Name="JsonFilePath" ColumnName="JsonFilePath" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Exchanged_Table">
+            <EntityTypeMapping TypeName="AutoTabadol_DBModel.Exchanged_Table">
+              <MappingFragment StoreEntitySet="Exchanged_Table">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Exchanged" ColumnName="Exchanged" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SameCategory_Table">
+            <EntityTypeMapping TypeName="AutoTabadol_DBModel.SameCategory_Table">
+              <MappingFragment StoreEntitySet="SameCategory_Table">
+                <ScalarProperty Name="JsonFilePath" ColumnName="JsonFilePath" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tab_Table">
+            <EntityTypeMapping TypeName="AutoTabadol_DBModel.Tab_Table">
+              <MappingFragment StoreEntitySet="Tab_Table">
+                <ScalarProperty Name="JsonFilePath" ColumnName="JsonFilePath" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserInfo_Table">
+            <EntityTypeMapping TypeName="AutoTabadol_DBModel.UserInfo_Table">
+              <MappingFragment StoreEntitySet="UserInfo_Table">
+                <ScalarProperty Name="ChatId" ColumnName="ChatId" />
+                <ScalarProperty Name="ChannelId" ColumnName="ChannelId" />
+                <ScalarProperty Name="BannerPath" ColumnName="BannerPath" />
+                <ScalarProperty Name="Category1" ColumnName="Category1" />
+                <ScalarProperty Name="Category2" ColumnName="Category2" />
+                <ScalarProperty Name="Category3" ColumnName="Category3" />
+                <ScalarProperty Name="DayliTab" ColumnName="DayliTab" />
+                <ScalarProperty Name="MemberCount" ColumnName="MemberCount" />
+                <ScalarProperty Name="Recive" ColumnName="Recive" />
+                <ScalarProperty Name="LastTabTimeToDay" ColumnName="LastTabTimeToDay" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Admin_Table">
+            <EntityTypeMapping TypeName="AutoTabadol_DBModel.Admin_Table">
+              <MappingFragment StoreEntitySet="Admin_Table">
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+                <ScalarProperty Name="SendMessage" ColumnName="SendMessage" />
+                <ScalarProperty Name="ChatId" ColumnName="ChatId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

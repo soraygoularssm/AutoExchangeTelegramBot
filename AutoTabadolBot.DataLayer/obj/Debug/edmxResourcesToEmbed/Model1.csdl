@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AutoTabadol_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category_Table">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Code" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CloseMember_Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="JsonFilePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Exchanged_Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Exchanged" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="SameCategory_Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="JsonFilePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tab_Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="JsonFilePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UserInfo_Table">
+    <Key>
+      <PropertyRef Name="ChatId" />
+    </Key>
+    <Property Name="ChatId" Type="Int64" Nullable="false" />
+    <Property Name="ChannelId" Type="Int64" />
+    <Property Name="BannerPath" Type="Int64" />
+    <Property Name="Category1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Category2" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Category3" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="DayliTab" Type="Int32" />
+    <Property Name="MemberCount" Type="Int64" />
+    <Property Name="Recive" Type="Boolean" />
+    <Property Name="LastTabTimeToDay" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="AutoTabadol_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Category_Table" EntityType="Self.Category_Table" />
+    <EntitySet Name="CloseMember_Table" EntityType="Self.CloseMember_Table" />
+    <EntitySet Name="Exchanged_Table" EntityType="Self.Exchanged_Table" />
+    <EntitySet Name="SameCategory_Table" EntityType="Self.SameCategory_Table" />
+    <EntitySet Name="Tab_Table" EntityType="Self.Tab_Table" />
+    <EntitySet Name="UserInfo_Table" EntityType="Self.UserInfo_Table" />
+    <EntitySet Name="Admin_Table" EntityType="AutoTabadol_DBModel.Admin_Table" />
+  </EntityContainer>
+  <EntityType Name="Admin_Table">
+    <Key>
+      <PropertyRef Name="ChatId" />
+    </Key>
+    <Property Name="ChatId" Type="Int64" Nullable="false" />
+    <Property Name="SendMessage" Type="Boolean" />
+    <Property Name="UserType" Type="Int32" />
+    <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

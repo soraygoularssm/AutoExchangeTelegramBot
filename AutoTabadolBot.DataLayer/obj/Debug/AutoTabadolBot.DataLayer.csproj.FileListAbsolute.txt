@@ -1,0 +1,16 @@
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\obj\Debug\AutoTabadolBot.DataLayer.csprojAssemblyReference.cache
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\obj\Debug\AutoTabadolBot.DataLayer.csproj.CoreCompileInputs.cache
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\obj\Debug\AutoTabadol.DataLayer.dll
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\obj\Debug\AutoTabadol.DataLayer.pdb
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\AutoTabadol.DataLayer.dll.config
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\AutoTabadol.DataLayer.dll
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\AutoTabadol.DataLayer.pdb
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\AutoTabadol.ViewModel.dll
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\EntityFramework.dll
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\Newtonsoft.Json.dll
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\AutoTabadol.ViewModel.pdb
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\EntityFramework.xml
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\bin\Debug\Newtonsoft.Json.xml
+D:\files\Telegram Bot\AutoTabadolBot\AutoTabadolBot.DataLayer\obj\Debug\AutoTabadolBot.DataLayer.csproj.CopyComplete

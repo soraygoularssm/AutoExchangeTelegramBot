@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AutoTabadol_DBModelStoreContainer" CdmEntityContainer="AutoTabadol_DBEntities">
+    <EntitySetMapping Name="Category_Table">
+      <EntityTypeMapping TypeName="AutoTabadol_DBModel.Category_Table">
+        <MappingFragment StoreEntitySet="Category_Table">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CloseMember_Table">
+      <EntityTypeMapping TypeName="AutoTabadol_DBModel.CloseMember_Table">
+        <MappingFragment StoreEntitySet="CloseMember_Table">
+          <ScalarProperty Name="JsonFilePath" ColumnName="JsonFilePath" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exchanged_Table">
+      <EntityTypeMapping TypeName="AutoTabadol_DBModel.Exchanged_Table">
+        <MappingFragment StoreEntitySet="Exchanged_Table">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Exchanged" ColumnName="Exchanged" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SameCategory_Table">
+      <EntityTypeMapping TypeName="AutoTabadol_DBModel.SameCategory_Table">
+        <MappingFragment StoreEntitySet="SameCategory_Table">
+          <ScalarProperty Name="JsonFilePath" ColumnName="JsonFilePath" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tab_Table">
+      <EntityTypeMapping TypeName="AutoTabadol_DBModel.Tab_Table">
+        <MappingFragment StoreEntitySet="Tab_Table">
+          <ScalarProperty Name="JsonFilePath" ColumnName="JsonFilePath" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserInfo_Table">
+      <EntityTypeMapping TypeName="AutoTabadol_DBModel.UserInfo_Table">
+        <MappingFragment StoreEntitySet="UserInfo_Table">
+          <ScalarProperty Name="ChatId" ColumnName="ChatId" />
+          <ScalarProperty Name="ChannelId" ColumnName="ChannelId" />
+          <ScalarProperty Name="BannerPath" ColumnName="BannerPath" />
+          <ScalarProperty Name="Category1" ColumnName="Category1" />
+          <ScalarProperty Name="Category2" ColumnName="Category2" />
+          <ScalarProperty Name="Category3" ColumnName="Category3" />
+          <ScalarProperty Name="DayliTab" ColumnName="DayliTab" />
+          <ScalarProperty Name="MemberCount" ColumnName="MemberCount" />
+          <ScalarProperty Name="Recive" ColumnName="Recive" />
+          <ScalarProperty Name="LastTabTimeToDay" ColumnName="LastTabTimeToDay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admin_Table">
+      <EntityTypeMapping TypeName="AutoTabadol_DBModel.Admin_Table">
+        <MappingFragment StoreEntitySet="Admin_Table">
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="SendMessage" ColumnName="SendMessage" />
+          <ScalarProperty Name="ChatId" ColumnName="ChatId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,36 @@
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.Calculation.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.Calculation.pdb
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.DataLayer.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\Newtonsoft.Json.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\Telegram.Bot.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\EntityFramework.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.ViewModel.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.DataLayer.pdb
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.DataLayer.dll.config
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\Newtonsoft.Json.xml
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\Telegram.Bot.xml
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\EntityFramework.xml
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.ViewModel.pdb
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.csprojAssemblyReference.cache
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.csproj.CoreCompileInputs.cache
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.csproj.CopyComplete
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.dll
+D:\files\Telegram Bot\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.pdb
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.Calculation.dll
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.Calculation.pdb
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.DataLayer.dll
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.ViewModel.dll
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\Telegram.Bot.dll
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.DataLayer.pdb
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.DataLayer.dll.config
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\AutoTabadol.ViewModel.pdb
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\Telegram.Bot.xml
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.csproj.CopyComplete
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.dll
+C:\Users\ASUS\Desktop\AutoTabadol\AutoTabadol.Calculation\obj\Debug\AutoTabadol.Calculation.pdb
